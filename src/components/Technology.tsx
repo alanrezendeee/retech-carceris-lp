@@ -59,13 +59,14 @@ export default function Technology() {
             </div>
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-5 leading-tight">
               Infraestrutura de{" "}
-              <span className="text-green-400">nível nacional</span>,{" "}
-              construída para escalar
+              <span className="text-green-400">nível estadual</span>,{" "}
+              construída para a Paraíba
             </h2>
             <p className="text-green-100/55 text-base leading-relaxed mb-8">
-              CARCERIS foi projetado para operar em escala nacional, com
-              disponibilidade 99.9%, segurança de ponta e integração com os
-              sistemas legados de cada estado sem retrabalho.
+              CARCERIS foi projetado para a realidade da SEAP-PB — 83 unidades
+              distribuídas do litoral ao sertão — com disponibilidade 99.9%,
+              segurança de ponta e integração com os sistemas legados do estado
+              sem retrabalho.
             </p>
 
             <div className="flex flex-wrap gap-2">

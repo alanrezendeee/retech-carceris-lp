@@ -1,5 +1,5 @@
 const pillars = [
-  { label: "Centralização", desc: "Uma única fonte de verdade para todo o sistema prisional nacional." },
+  { label: "Centralização", desc: "Uma única fonte de verdade para as 83 unidades prisionais da Paraíba." },
   { label: "Integração", desc: "Conectado à Polícia Civil PB, TJPB, saúde e assistência social estadual." },
   { label: "Automação", desc: "Fluxos automáticos eliminam erros humanos e aceleram processos críticos." },
   { label: "Rastreabilidade", desc: "Cada ação registrada com auditoria completa e imutável." },

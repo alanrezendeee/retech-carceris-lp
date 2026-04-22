@@ -39,8 +39,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CARCERIS — A Infraestrutura Digital do Sistema Prisional Brasileiro",
-    description: "Gestão completa, inteligente e integrada — da captura à reintegração.",
+    title: "CARCERIS — A Infraestrutura Digital do Sistema Prisional da Paraíba",
+    description: "Gestão completa da SEAP-PB — 83 unidades, 16.452 presos, controle absoluto.",
     images: ["/og-image.png"],
   },
 };
@@ -53,7 +53,7 @@ const structuredData = {
       "@id": "https://carceris.com.br/#organization",
       name: "CARCERIS",
       url: "https://carceris.com.br",
-      description: "Plataforma nacional inteligente para gestão penitenciária integrada",
+      description: "Plataforma de gestão penitenciária integrada para o estado da Paraíba",
       foundingCountry: "BR",
       areaServed: "BR",
     },

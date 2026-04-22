@@ -44,7 +44,7 @@ export default function Footer() {
           {/* Copyright */}
           <div className="text-xs text-green-200/30 text-center md:text-right">
             <div>© {year} CARCERIS · Todos os direitos reservados</div>
-            <div className="mt-1">Plataforma Nacional de Gestão Prisional · Brasil</div>
+            <div className="mt-1">Plataforma de Gestão Prisional · Paraíba</div>
           </div>
         </div>
       </div>

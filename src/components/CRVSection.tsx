@@ -46,7 +46,7 @@ export default function CRVSection() {
                 </div>
                 <div>
                   <div className="text-white font-bold">Central de Regulação de Vagas</div>
-                  <div className="text-green-400/60 text-xs">CRV Nacional</div>
+                  <div className="text-green-400/60 text-xs">CRV-PB · CNJ</div>
                 </div>
               </div>
 
