@@ -1,6 +1,6 @@
 const pillars = [
   { label: "Centralização", desc: "Uma única fonte de verdade para todo o sistema prisional nacional." },
-  { label: "Integração", desc: "Conectado à polícia, judiciário, saúde e assistência social." },
+  { label: "Integração", desc: "Conectado à Polícia Civil PB, TJPB, saúde e assistência social estadual." },
   { label: "Automação", desc: "Fluxos automáticos eliminam erros humanos e aceleram processos críticos." },
   { label: "Rastreabilidade", desc: "Cada ação registrada com auditoria completa e imutável." },
 ];
@@ -23,13 +23,14 @@ export default function Solution() {
           <h2 className="text-3xl lg:text-5xl font-bold text-white mb-6 leading-tight">
             Uma plataforma única que{" "}
             <span className="text-green-400">centraliza, organiza</span>{" "}
-            e automatiza toda a gestão prisional.
+            e automatiza toda a gestão da SEAP-PB.
           </h2>
 
           <p className="text-green-100/55 text-base lg:text-lg leading-relaxed">
-            CARCERIS não é um sistema de controle. É a infraestrutura digital
-            que o Brasil precisa para transformar o sistema penitenciário em uma
-            operação segura, eficiente e auditável.
+            CARCERIS não é mais um sistema isolado. É a infraestrutura digital
+            que a Paraíba precisa para integrar suas 83 unidades prisionais em
+            uma operação única, segura, eficiente e auditável — do interior à
+            capital.
           </p>
         </div>
 

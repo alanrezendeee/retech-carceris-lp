@@ -5,8 +5,8 @@ const problems = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M13.181 8.68a4.503 4.503 0 011.303 1.498l.053.092M13.181 8.68l-5.09-5.09a.75.75 0 00-1.06 1.06l3.99 3.99a4.5 4.5 0 01.16 6.305l-1.44 1.44a.75.75 0 01-1.06-1.06l1.44-1.44a3 3 0 00-.106-4.185M10.818 8.32l-.053.091a4.5 4.5 0 01-6.343.862l-1.44-1.44a.75.75 0 10-1.06 1.06l1.44 1.44a6 6 0 008.362-1.133" />
       </svg>
     ),
-    title: "Fragmentação total",
-    desc: "Cada órgão opera em silos: polícia, judiciário, unidades e serviços sociais sem comunicação real.",
+    title: "83 unidades, zero integração",
+    desc: "De João Pessoa a Cajazeiras, cada unidade da SEAP-PB opera em silo — sem comunicação real com judiciário, saúde ou assistência social.",
   },
   {
     icon: (
@@ -14,8 +14,8 @@ const problems = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
       </svg>
     ),
-    title: "Processos manuais",
-    desc: "Formulários físicos, planilhas desatualizadas e registros em papel criam erros críticos e perda de informação.",
+    title: "Processos ainda manuais",
+    desc: "Apesar do SAREF para audiências remotas, a gestão diária das 83 unidades ainda depende de formulários físicos e planilhas desatualizadas.",
   },
   {
     icon: (
@@ -25,8 +25,8 @@ const problems = [
         <line x1="2" y1="2" x2="22" y2="22" strokeWidth={1.5} strokeLinecap="round" />
       </svg>
     ),
-    title: "Invisibilidade operacional",
-    desc: "Gestores não têm visão em tempo real da ocupação, movimentações ou estado dos detentos sob sua responsabilidade.",
+    title: "174% de ocupação sem controle",
+    desc: "Sem visibilidade em tempo real das vagas, a SEAP-PB não consegue redistribuir presos eficientemente — agravando superlotação e risco à segurança.",
   },
   {
     icon: (
@@ -34,8 +34,8 @@ const problems = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
       </svg>
     ),
-    title: "Falhas de controle",
-    desc: "Transferências sem auditoria, vagas superlotadas sem controle centralizado e execução penal com baixa rastreabilidade.",
+    title: "Transferências sem auditoria",
+    desc: "Movimentações entre unidades paraibanas ocorrem sem rastreabilidade completa — criando vulnerabilidades graves de segurança e compliance jurídico.",
   },
 ];
 
@@ -56,14 +56,14 @@ export default function Problem() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-5 leading-tight">
-              O sistema prisional brasileiro opera{" "}
-              <span className="text-red-400">no limite do caos</span>
+              A SEAP-PB opera 83 unidades{" "}
+              <span className="text-red-400">sem gestão integrada</span>
             </h2>
             <p className="text-green-100/50 text-base lg:text-lg leading-relaxed">
-              Mais de 1.500 unidades prisionais, 900 mil detentos e dezenas de
-              órgãos sem um sistema comum. O resultado é previsível: erros,
-              custos operacionais elevados, risco à segurança e ausência
-              completa de rastreabilidade.
+              A Paraíba tem 174% de taxa de ocupação — 3ª pior do Nordeste —
+              com déficit de quase 7.000 vagas. São 16.452 pessoas privadas de
+              liberdade distribuídas em 83 unidades que não se comunicam entre
+              si com eficiência. O custo humano e operacional é alto demais.
             </p>
           </div>
 

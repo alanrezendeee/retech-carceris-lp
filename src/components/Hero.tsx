@@ -1,9 +1,9 @@
 import FlowDiagram from "./FlowDiagram";
 
 const stats = [
-  { value: "1.500+", label: "Unidades prisionais no Brasil" },
-  { value: "900k+", label: "Detentos sob gestão" },
-  { value: "27", label: "Estados integráveis" },
+  { value: "83", label: "Unidades prisionais na PB" },
+  { value: "16.452", label: "Pessoas privadas de liberdade" },
+  { value: "174%", label: "Taxa de ocupação atual" },
 ];
 
 export default function Hero() {
@@ -23,7 +23,7 @@ export default function Hero() {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full glass-card-accent text-green-400 text-xs font-semibold tracking-wider uppercase mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse-green" aria-hidden="true" />
-              Plataforma Nacional · Segurança Pública
+              Paraíba · SEAP-PB · Segurança Pública
             </div>
 
             {/* Brand */}
@@ -37,13 +37,14 @@ export default function Hero() {
             <h1 className="text-2xl lg:text-4xl font-bold text-white leading-tight mb-6">
               A Infraestrutura Digital do{" "}
               <span className="text-green-400">Sistema Prisional</span>{" "}
-              Brasileiro
+              da Paraíba
             </h1>
 
             {/* Subheadline */}
             <p className="text-base lg:text-lg text-green-100/60 leading-relaxed mb-8 max-w-xl">
-              Gestão completa, inteligente e integrada — da captura à
-              reintegração, com controle absoluto e rastreabilidade total.
+              Gestão completa, inteligente e integrada para a SEAP-PB — 83
+              unidades, 16.452 presos, 174% de ocupação. Controle absoluto,
+              rastreabilidade total.
             </p>
 
             {/* CTAs */}

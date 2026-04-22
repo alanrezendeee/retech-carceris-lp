@@ -26,8 +26,11 @@ export default function CRVSection() {
             <span className="text-green-400">Transferências</span>
           </h2>
           <p className="text-green-100/55 text-base lg:text-lg max-w-2xl mx-auto leading-relaxed">
-            Gerenciamento centralizado de vagas e o ciclo completo de
-            transferências — do pedido à auditoria, sem lacunas.
+            Em agosto de 2025, a Paraíba tornou-se o{" "}
+            <span className="text-green-400 font-semibold">2º estado do Brasil</span>{" "}
+            a adotar a metodologia CRV do CNJ. CARCERIS é a plataforma que
+            operacionaliza esse avanço com ciclo completo de transferências —
+            do pedido à auditoria, sem lacunas.
           </p>
         </div>
 
@@ -50,20 +53,20 @@ export default function CRVSection() {
               {/* Simulated vacancy bar */}
               <div className="mb-6">
                 <div className="flex justify-between text-xs text-green-200/50 mb-2">
-                  <span>Ocupação atual</span>
-                  <span className="text-green-400 font-semibold">67% · 603.000 / 900.000</span>
+                  <span>Ocupação atual · Paraíba</span>
+                  <span className="text-red-400 font-semibold">174% · déficit ~7.000 vagas</span>
                 </div>
                 <div className="h-2 bg-green-900/40 rounded-full overflow-hidden">
-                  <div className="h-full w-2/3 bg-gradient-to-r from-green-600 to-green-400 rounded-full" />
+                  <div className="h-full w-full bg-gradient-to-r from-red-700 via-red-500 to-red-400 rounded-full" />
                 </div>
               </div>
 
               <ul className="space-y-3">
                 {[
-                  "Visão em tempo real de todas as vagas por estado e unidade",
-                  "Alocação automática baseada em perfil, regime e distância",
-                  "Alertas de superlotação com acionamento automático",
-                  "Integração direta com módulo de Transferências",
+                  "Mapa em tempo real das 83 unidades paraibanas — vagas e perfis",
+                  "Alocação automática por regime, perfil e distância geográfica na PB",
+                  "Alertas de superlotação com acionamento direto à SEAP-PB",
+                  "Integração com o CRV-PB do CNJ lançado em agosto de 2025",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2.5 text-xs text-green-100/65">
                     <svg viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" aria-hidden="true">

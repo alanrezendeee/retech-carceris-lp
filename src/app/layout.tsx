@@ -10,9 +10,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://carceris.com.br"),
-  title: "CARCERIS — A Infraestrutura Digital do Sistema Prisional Brasileiro",
+  title: "CARCERIS — A Infraestrutura Digital do Sistema Prisional da Paraíba",
   description:
-    "Plataforma nacional inteligente para gestão penitenciária integrada. Da captura à reintegração — com controle absoluto, rastreabilidade total e integração com todos os órgãos do sistema de segurança pública.",
+    "Plataforma inteligente de gestão penitenciária para a SEAP-PB. 83 unidades, 16.452 presos, 174% de ocupação — controle absoluto, rastreabilidade total e integração com judiciário, saúde e segurança pública da Paraíba.",
   keywords: [
     "gestão prisional",
     "sistema penitenciário",
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     url: "https://carceris.com.br",
     siteName: "CARCERIS",
-    title: "CARCERIS — A Infraestrutura Digital do Sistema Prisional Brasileiro",
+    title: "CARCERIS — A Infraestrutura Digital do Sistema Prisional da Paraíba",
     description:
-      "Gestão completa, inteligente e integrada — da captura à reintegração, com controle absoluto e rastreabilidade total.",
+      "Gestão completa da SEAP-PB — 83 unidades, 16.452 presos, 174% de ocupação. Controle absoluto e rastreabilidade total.",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "CARCERIS" }],
   },
   twitter: {

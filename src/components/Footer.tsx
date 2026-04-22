@@ -6,16 +6,26 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded-md bg-green-500/20 border border-green-500/30 flex items-center justify-center">
-              <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-green-400" aria-hidden="true">
-                <rect x="3" y="3" width="7" height="7" rx="1" fill="currentColor" opacity="0.9" />
-                <rect x="14" y="3" width="7" height="7" rx="1" fill="currentColor" opacity="0.6" />
-                <rect x="3" y="14" width="7" height="7" rx="1" fill="currentColor" opacity="0.6" />
-                <rect x="14" y="14" width="7" height="7" rx="1" fill="currentColor" opacity="0.3" />
-              </svg>
-            </div>
-            <span className="text-white/60 font-bold text-sm tracking-widest">CARCERIS</span>
+          <div className="flex items-center gap-2.5">
+            <svg viewBox="0 0 32 32" fill="none" className="w-7 h-7" aria-hidden="true">
+              <defs>
+                <filter id="footer-glow">
+                  <feGaussianBlur stdDeviation="1.5" result="blur" />
+                  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                </filter>
+              </defs>
+              <circle cx="16" cy="16" r="14" stroke="#22C55E" strokeWidth="1" opacity="0.2" />
+              <path
+                d="M22 10.5A8.5 8.5 0 1 0 22 21.5"
+                stroke="#22C55E"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                fill="none"
+                filter="url(#footer-glow)"
+              />
+              <circle cx="16" cy="16" r="1.5" fill="#22C55E" opacity="0.6" />
+            </svg>
+            <span className="text-white/60 font-extralight text-sm tracking-[0.25em]">CARCERIS</span>
           </div>
 
           {/* Links */}

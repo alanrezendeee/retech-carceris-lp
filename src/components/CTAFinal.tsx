@@ -8,7 +8,7 @@ export default function CTAFinal() {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full glass-card-accent text-green-400 text-xs font-semibold tracking-wider uppercase mb-8">
           <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse-green" aria-hidden="true" />
-          Acesso institucional
+          SEAP-PB · Acesso institucional
         </div>
 
         <h2 className="text-3xl lg:text-5xl font-bold text-white mb-6 leading-tight">
@@ -17,10 +17,10 @@ export default function CTAFinal() {
         </h2>
 
         <p className="text-green-100/55 text-base lg:text-lg leading-relaxed mb-10 max-w-2xl mx-auto">
-          CARCERIS está disponível para secretarias de segurança pública,
-          tribunais de justiça, administrações penitenciárias estaduais e
-          órgãos federais. Solicite uma apresentação técnica e conheça a
-          implementação personalizada para sua realidade.
+          CARCERIS foi desenhado para a realidade da SEAP-PB — 83 unidades,
+          16.452 presos e 174% de ocupação. Solicite uma apresentação técnica
+          e veja como integrar toda a gestão prisional paraibana em uma única
+          plataforma.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4 mb-12">
