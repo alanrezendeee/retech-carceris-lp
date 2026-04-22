@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { getWhatsAppLink } from "@/lib/whatsapp";
 
 const links = [
   { label: "Problema", href: "#problema" },
@@ -74,7 +75,9 @@ export default function Navbar() {
           {/* CTA */}
           <div className="hidden lg:block">
             <a
-              href="#contato"
+              href={getWhatsAppLink("navbar")}
+              target="_blank"
+              rel="noopener noreferrer"
               className="cursor-pointer inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-green-500 hover:bg-green-400 text-black font-semibold text-sm transition-all duration-200 glow-green"
             >
               Solicitar apresentação

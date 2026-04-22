@@ -1,3 +1,5 @@
+import { getWhatsAppLink } from "@/lib/whatsapp";
+
 export default function CTAFinal() {
   return (
     <section id="contato" className="relative section-py">
@@ -25,7 +27,9 @@ export default function CTAFinal() {
 
         <div className="flex flex-wrap items-center justify-center gap-4 mb-12">
           <a
-            href="mailto:contato@carceris.com.br?subject=Solicitação de apresentação CARCERIS"
+            href={getWhatsAppLink("cta_primary")}
+            target="_blank"
+            rel="noopener noreferrer"
             className="cursor-pointer inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-green-500 hover:bg-green-400 text-black font-bold text-base transition-all duration-200 glow-green-intense"
           >
             Solicitar apresentação
@@ -34,7 +38,9 @@ export default function CTAFinal() {
             </svg>
           </a>
           <a
-            href="mailto:contato@carceris.com.br"
+            href={getWhatsAppLink("cta_specialist")}
+            target="_blank"
+            rel="noopener noreferrer"
             className="cursor-pointer inline-flex items-center gap-2 px-8 py-4 rounded-xl glass-card hover:border-green-500/40 text-green-300 font-semibold text-base transition-all duration-200"
           >
             Falar com especialista

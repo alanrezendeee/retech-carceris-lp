@@ -1,4 +1,5 @@
 import FlowDiagram from "./FlowDiagram";
+import { getWhatsAppLink } from "@/lib/whatsapp";
 
 const stats = [
   { value: "83", label: "Unidades prisionais na PB" },
@@ -50,7 +51,9 @@ export default function Hero() {
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 mb-12">
               <a
-                href="#contato"
+                href={getWhatsAppLink("hero")}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="cursor-pointer inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-green-500 hover:bg-green-400 text-black font-bold text-sm transition-all duration-200 glow-green-intense"
               >
                 Solicitar apresentação
